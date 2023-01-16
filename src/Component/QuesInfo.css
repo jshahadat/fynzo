@@ -1,0 +1,85 @@
+.container {
+    padding-left: 200px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+
+.pre-btn {
+    background-color: rgba(50, 176, 124, 0.793);
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.next-btn {
+    background-color: rgba(255, 0, 0, 0.795);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.sub-btn {
+    background-color: rgb(0, 58, 183);
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.input {
+    border: 2px solid #20fb57;
+    border-radius: 5px;
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.que-mqrgin {
+    color: #ef37ff;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.drop-down {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.btn-box {
+    margin-top: 20px;
+}
+
+.comp-center {
+    color: #ef37ff;
+    text-align: center;
+}
+
+@media screen and (max-width:688px) {
+    .container {
+        display: flex;
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-right: 20px;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .input {
+        border: 2px solid #20fb57;
+        border-radius: 5px;
+        width: 300px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+}
